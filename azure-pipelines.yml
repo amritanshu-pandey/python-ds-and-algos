@@ -31,7 +31,3 @@ steps:
     flake8
   displayName: 'flake8'
 
-- script: |
-    pip install pytest pytest-azurepipelines
-    pytest
-  displayName: 'pytest'
